@@ -3,3 +3,55 @@
 * {
   box-sizing: border-box;
 }
+
+/**********  Base Layout Styles  ********/
+
+body {
+  font-family: 'Roboto Slab', serif;
+  margin: auto;
+  background: #e8eaed;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+.container {
+  background: white;
+}
+
+.portfolio-image {
+  margin: 0 auto;
+}
+
+
+
+/**********  Float Clearfix  ********/
+
+
+
+
+/**********  Media Queries  ********/
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .container {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+
+  .card {
+    width: 95%;
+    height: 450px;
+
+
+  }
+
+
+
+
+
+
+}
