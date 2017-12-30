@@ -14,7 +14,7 @@ a {
 body {
   font-family: 'Roboto Slab', serif;
   margin: auto;
-  background: #e8eaed;
+  background: #63aaf2;
 
 }
 
@@ -92,11 +92,14 @@ a:visited {
 
    #to-top {
      float: right;
+     margin: 0 2.5% 4% 0;
    }
 
-  .main-nav {
+  .main-header {
     padding-bottom: 35px;
+    text-align: center;
   }
+
 
   .intro {
     text-align: center;
@@ -114,6 +117,11 @@ a:visited {
     padding-bottom: 35px;
   }
 
+  .card p {
+    padding: 3% 5%;
+    font-size: 1.06rem;
+  }
+
   .contact-info {
     padding: 30px 2.5%;
   }
@@ -124,6 +132,8 @@ a:visited {
 
  .footer-name {
    float: left;
+   margin: 0 0 4% 2.5%;
+
  }
 
 }
