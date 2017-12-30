@@ -14,19 +14,19 @@
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
       <div>
-        <img src="images/responsive-layout-profile.png" alt="Profile Image">
+        <img id="profile-img" src="images/responsive-layout-profile.png" alt="Profile Image">
         <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put my skills to use!</p>
       </div>
     </header>
 
     <main>
-      <h3 id="portfolio">Portfolio</h3>
       <div class="container">
+        <h3 id="portfolio-heading">Portfolio</h3>
         <div class="card">
           <img src="images/portfolio-1.png" alt="Marketing Graphic" class="portfolio-image">
           <h3>Marketing Page</h3>
@@ -66,9 +66,29 @@
     </main>
 
     <footer>
-      <div class="">
+      <div id="contact" class="contact-info">
         <h3>Contact</h3>
         <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+          <div class="contact-info">
+            <p>Phone <strong>+1 (111) 555 1234</strong></p>
+            <p>Email <a href="mailto:r.j.p.l@live.com"><strong>r.j.p.l@live.com</strong></a></p>
+          </div>
+        <hr>
+      </div>
+
+      <div class="footer-info">
+        <div class="group">
+          <h4 class="footer-name">Rowan Levine</h4>
+          <a id="to-top" href="#">Back to Top</a>
+        </div>
+
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
       </div>
 
     </footer>

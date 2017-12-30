@@ -6,6 +6,11 @@
 
 /**********  Base Layout Styles  ********/
 
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
   margin: auto;
@@ -13,8 +18,18 @@ body {
 
 }
 
+h2,
 h3 {
   text-align: center;
+  text-transform: uppercase;
+}
+
+ul  {
+  list-style-type: none;
+}
+
+hr {
+  color: grey;
 }
 
 .container {
@@ -22,36 +37,93 @@ h3 {
 }
 
 .portfolio-image {
-  margin: 0 auto;
+  max-width: 100%;
 }
 
+.card {
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+/**********  Link Styles  ********/
+
+a:hover {
+  color: lightcoral;
+}
+
+a:visited {
+  color: darkseagreen;
+}
 
 
 /**********  Float Clearfix  ********/
 
-
-
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /**********  Media Queries  ********/
 
 @media (min-width: 320px) and (max-width: 767px) {
+
+  h1 {
+    text-align: center;
+  }
+
+  hr {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  #profile-img {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+   }
+
+   #portfolio-heading {
+     padding: 45px 0 35px;
+   }
+
+   #to-top {
+     float: right;
+   }
+
+  .main-nav {
+    padding-bottom: 35px;
+  }
+
+  .intro {
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding-bottom: 35px;
+  }
 
   .container {
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
 
-
   .card {
-    width: 95%;
-    height: 450px;
-
-
+    padding-bottom: 35px;
   }
 
+  .contact-info {
+    padding: 30px 2.5%;
+  }
 
+ .footer-nav {
+   display: none;
+ }
 
-
-
+ .footer-name {
+   float: left;
+ }
 
 }
