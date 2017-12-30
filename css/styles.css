@@ -53,6 +53,7 @@ hr {
 
 .card {
   text-align: center;
+  display: inline-block;
 }
 
 .contact-info {
@@ -117,6 +118,7 @@ a:visited {
     padding-bottom: 35px;
   }
 
+  .container2,
   .container {
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -156,9 +158,66 @@ a:visited {
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
 
+  .intro {
+    text-align: left;
+    font-size: 1.4rem;
+  }
 
+  #profile-img {
+    width: 35%;
+    float: right;
+    margin: 0 auto;
+   }
 
+  .main-header,
+  .container2,
+   .container {
+     margin-left: 3%;
+     margin-right: 3%;
+  }
 
+  .container {
+    height: 1220px;
+  }
+
+  #portfolio-heading {
+    padding: 35px 0;
+  }
+
+  .card {
+    float: left;
+    height: 360px;
+    width: 49%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+
+  .outro {
+    margin: 0 25% 0 25%;
+  }
+
+  .footer-nav li {
+    display: inline;
+    margin-right: 3%;
+  }
+
+  .footer-nav ul {
+    padding-left: 73%;
+  }
+
+  .footer-name {
+    float: left;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  #to-top {
+    display: none;
+  }
 
 }
