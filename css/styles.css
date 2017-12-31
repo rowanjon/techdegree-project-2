@@ -128,9 +128,14 @@ a:visited {
     font-size: 1.13rem;
   }
 
+  .main-nav a {
+    display: block;
+  }
+
   .main-nav li {
     margin-top: 5px;
     background: white;
+    padding: 8px;
   }
 
   .main-nav,
@@ -180,7 +185,29 @@ a:visited {
 
   h1 {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
+    margin-bottom: 0;
+  }
+
+  hr {
+    margin: 0;
+  }
+
+  .main-nav ul {
+    text-align: center;
+  }
+
+  .main-nav li {
+    display: inline;
+    padding: 0 25px;
+  }
+
+  .main-nav {
+    padding: 2.8% 0;
+  }
+
+  .main-header {
+    padding-bottom: 45px;
   }
 
   .intro {
@@ -189,52 +216,60 @@ a:visited {
   }
 
   #profile-img {
-    width: 35%;
+    width: 45%;
     float: right;
     margin: 0 auto;
    }
 
   .main-header,
-  .container2,
-   .container {
+  .container2  {
      margin-left: 3%;
      margin-right: 3%;
   }
 
   .container {
-    height: 1220px;
+    height: 1257px;
   }
 
   #portfolio-heading {
-    padding: 35px 0;
+    padding: 2% 0;
   }
 
   .card {
     float: left;
-    height: 360px;
-    width: 49%;
-    margin: auto;
-    padding-bottom: 30px;
+    height: 30.17%;
+    width: 47%;
+    overflow: hidden;
+    word-wrap: break-word;
+    padding-bottom: 3%;
+
+  }
+
+  .contact-info {
+    padding: 3% 0;
   }
 
   .outro {
     margin: 0 25% 0 25%;
   }
 
-
-  .footer-nav li {
-    display: inline;
-    margin-right: 3%;
+  .footer-nav {
+    padding-bottom: 30px;
   }
 
   .footer-nav ul {
-    padding-left: 73%;
+    margin: 8px 3% 20px;
+  }
+
+  .footer-nav li {
+    padding: 0 20px;
+    display: inline-block;
   }
 
   .footer-name {
     float: left;
-    margin-top: 0;
-    padding-bottom: 20px;
+    margin-top: 8px;
+    padding-bottom: 17px;
   }
 
   #to-top {
