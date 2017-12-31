@@ -149,8 +149,12 @@ a:visited {
     font-size: 1.06rem;
   }
 
+  #contact-header {
+    padding: 15px 0;
+  }
+
   .contact-info {
-    padding: 30px 2.5%;
+    padding: 20px 2.5% 50px;
   }
 
  .footer-nav {
@@ -166,7 +170,7 @@ a:visited {
  #to-top {
    float: right;
    margin: 0 2.5% 5% 0;
-   padding-bottom: 6px;
+   padding-bottom: 26px;
  }
 
 
@@ -216,6 +220,7 @@ a:visited {
   .outro {
     margin: 0 25% 0 25%;
   }
+
 
   .footer-nav li {
     display: inline;
