@@ -112,11 +112,11 @@ a:visited {
    }
 
    #portfolio-heading {
-     padding: 45px 0 35px;
+     padding: 35px 0;
+     margin-bottom: 0;
    }
 
   .main-header {
-    padding-bottom: 35px;
     text-align: center;
   }
 
@@ -126,10 +126,6 @@ a:visited {
     margin-right: 2.5%;
     padding-bottom: 35px;
     font-size: 1.13rem;
-  }
-
-  .main-nav a {
-    text-align: center;
   }
 
   .main-nav li {
