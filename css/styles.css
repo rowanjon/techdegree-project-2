@@ -174,12 +174,12 @@ a:visited {
  .footer-name {
    float: left;
    padding-bottom: 6px;
-   margin: 0 0 5% 2.5%;
+   margin: 2% 0 5% 2.5%;
  }
 
  #to-top {
    float: right;
-   margin: 0 2.5% 5% 0;
+   margin: 2% 2.5% 5% 0;
    padding-bottom: 26px;
  }
 
