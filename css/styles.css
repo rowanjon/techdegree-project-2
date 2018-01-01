@@ -310,6 +310,7 @@ a:visited {
     position: relative;
   }
 
+
   .main-header nav ul {
       list-style: none;
       width: 100%;
@@ -336,6 +337,7 @@ a:visited {
    }
 
    .main-intro {
+     padding-top: 15px;
      padding-bottom: 40px;
    }
 
