@@ -136,12 +136,13 @@ a:visited {
 
    #portfolio-heading {
      padding: 35px 0;
-     margin: 0 2.5% 0;
+     margin: 0;
      background: white;
    }
 
   .main-header {
     text-align: center;
+    margin: 0 2.5% 0 2.5%;
   }
 
   .intro {
@@ -163,8 +164,7 @@ a:visited {
   }
 
   .main-nav,
-  .container2,
-  .container {
+  .container2, {
     margin-left: 2.5%;
     margin-right: 2.5%;
   }
@@ -183,7 +183,7 @@ a:visited {
   }
 
    .skills {
-     margin: 5% 2.5% 0;
+     margin-top: 5%;
      padding: 2.5% 0;
    }
 
@@ -212,14 +212,14 @@ a:visited {
 
  .footer-name {
    float: left;
-   padding-bottom: 6px;
-   margin: 2% 0 5% 2.5%;
+   margin: 2% 2.5% 2% 2.5%;
+   padding: 15px 0 15px 0;
  }
 
  #to-top {
    float: right;
-   margin: 2% 2.5% 5% 0;
-   padding-bottom: 26px;
+   margin: 2% 2.5% 2% 0;
+   padding: 15px 0 15px 0;
  }
 
 }
